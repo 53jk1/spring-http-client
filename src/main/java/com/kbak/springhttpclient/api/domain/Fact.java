@@ -1,4 +1,3 @@
-
 package com.kbak.springhttpclient.api.domain;
 
 import java.io.Serializable;
