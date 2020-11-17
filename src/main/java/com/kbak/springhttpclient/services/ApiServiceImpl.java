@@ -8,7 +8,7 @@ import org.springframework.web.client.RestTemplate;
 @Service
 public class ApiServiceImpl implements ApiService {
 
-    private RestTemplate restTemplate;
+    final RestTemplate restTemplate;
 
     public ApiServiceImpl(RestTemplate restTemplate) {
         this.restTemplate = restTemplate;
